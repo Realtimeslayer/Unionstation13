@@ -163,3 +163,43 @@
 </ul>
 <p><i>Chief Petty Officer Meng Jiao</i></p>
 "}
+/obj/item/material/folder/envelope/preset/rep
+	desc = "A thick envelope. The UGN crest is stamped in the corner, along with 'TOP SECRET- URC PROTOCOL'."
+	seal_stamp = "General Secretary rubber stamp"
+
+/obj/item/paper/
+"}
+	name = "United Rocknall Procedure"
+	info = {"
+	<tt><center><b><span style='color: red'>TOP SECRET- URC EMERGENCY CODE<span style='color: red'><center><tt>
+	<h3>UNITED ROCKNALL ADMINISTRATIVE AFFAIRS DEPARTMENT</h3>
+	<img src = sollogo.png>
+	</center>
+	<b>FROM:</b> Henry Forn, Chief of Administrative Affairs<br>
+	<b>TO:</b> Sci-Med Officer<br>
+	<b>CC:</b> Medical Administrator's Office<br>
+	<b>SUBJECT:</b> United Rocknall Operating and Emergency procedure<br>
+	<hr>
+	Good Day Administrator,
+	This is quite a large piece of documentation so please take your time to read through it.
+	You are an Administrator of the United Rocknall Corporation, correct?
+	If not, burn this document and halt reading.
+	If so, continue reading.
+	I am Henry Forn, Chief of Administrative Affairs of the United Rocknall Corporation.
+	This is the standard operating procedure for the United Rocknall Corporation's administrative staff.
+	<li>Ensure xenobiological life stays at the bottom of the URC command chain.
+	<li>Always stay in uniform, violations of this rule may be on the grounds of a demotion
+	<li>Act presentable, please know what you are doing
+	Once you have read those, you are ready for the emergency procedure.
+	In the event of a terrible accident onboard the ship, please secure all data before it is destroyed.
+	In this case, you MAY acquire a weapon from security, please refrence the Standard Operating Procedure if they do not comply.
+	DO NOT let the data fall into any hands other than your own or the other administrator's.
+	In the case individuals of the URC or any other department take data, you are given authorization to terminate their lives.
+	Make your way to the nearest URC owned shuttle, xenos last to board, and take off to the stars.
+	Remember: This is only to be used in situations where code delta has been invoked.
+	If members of the URC do not comply, show them this document, and they will.
+	With the exception of xenos of course.
+	See attached document for further information of the United Rocknall Code
+	<i>Regards, Forn.</i></tt>
+	<i>This paper has been stamped with the stamp of The United Rocknall Corporation.</i>
+	"}
