@@ -168,7 +168,6 @@
 	seal_stamp = "General Secretary rubber stamp"
 
 /obj/item/paper/
-"}
 	name = "United Rocknall Procedure"
 	info = {"
 	<tt><center><b><span style='color: red'>TOP SECRET- URC EMERGENCY CODE<span style='color: red'><center><tt>
