@@ -1,4 +1,4 @@
-	/singleton/cultural_info/faction/scg
+/singleton/cultural_info/faction/scg
 	name = FACTION_UNITED_GALACTIC_NATIONS
 	description = "The United Galactic Nations, abbreviated the UGN, is a collection of independant councillers founded on Pax. \
 	They rule the sole democracy in this grim time. It is the commanding force of the Peacekeeper Division, as well as a managment for the many overreaching conglomerates of this galaxy. \
