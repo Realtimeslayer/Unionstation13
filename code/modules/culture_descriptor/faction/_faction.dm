@@ -4,5 +4,3 @@
 	secondary_langs = null
 	category = TAG_FACTION
 	var/mob_faction = MOB_FACTION_NEUTRAL
-	var/list/blacklisted_jobs = list()
-	var/list/whitelisted_jobs = list()
