@@ -8685,7 +8685,8 @@
 /area/crew_quarters/lounge)
 "ES" = (
 /obj/structure/table/steel,
-/obj/item/tray,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal,
 /turf/simulated/floor/wood,
 /area/crew_quarters/lounge)
 "ET" = (
@@ -11130,15 +11131,6 @@
 /area/maintenance/fourthdeck/aft)
 "MN" = (
 /obj/structure/table/marble,
-/obj/item/reagent_containers/food/drinks/glass2/coffeecup/custom{
-	pixel_x = -6
-	},
-/obj/item/reagent_containers/food/drinks/glass2/coffeecup/custom{
-	pixel_y = 28
-	},
-/obj/item/reagent_containers/food/drinks/glass2/coffeecup/custom{
-	pixel_x = 9
-	},
 /turf/unsimulated/floor/steel,
 /area/crew_quarters/lounge)
 "MR" = (
@@ -12902,7 +12894,9 @@
 	dir = 4
 	},
 /obj/structure/table/marble,
-/obj/machinery/microwave,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal,
+/obj/item/reagent_containers/food/drinks/glass2/coffeecup/metal,
 /turf/unsimulated/floor/steel,
 /area/crew_quarters/lounge)
 "RY" = (
