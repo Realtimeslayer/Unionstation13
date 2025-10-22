@@ -1,7 +1,7 @@
 /obj/item/clothing/suit/aquatic_mech
 	name = "Aquatic Environment Suit"
 	desc = "A sophisticated robotic suit filled with water, designed to keep aquatic species alive in air environments."
-	icon = 'icons/obj/clothing/species/aquatic/aquaticsuit.dmi'
+	icon = 'code/modules/aquatic_species/icons/aquatic_suit.dmi'
 	icon_state = "aquaticsuit"
 	item_state = "aquaticsuit"
 

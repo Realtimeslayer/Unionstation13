@@ -1,7 +1,7 @@
 /obj/machinery/aquatic_mech_charger
 	name = "Aquatic Mech Charging Station"
 	desc = "A specialized charging station for aquatic environment suits."
-	icon = 'icons/obj/machinery/aquaticcharger.dmi'
+	icon = 'code/modules/aquatic_species/icons/aquatic_charger.dmi'
 	icon_state = "charger"
 
 	density = TRUE

@@ -27,7 +27,7 @@
 	// Special flags
 	species_flags = SPECIES_FLAG_NO_SCAN | SPECIES_FLAG_NO_PAIN
 	appearance_flags = SPECIES_APPEARANCE_HAS_SKIN_COLOR
-	spawn_flags = SPECIES_CAN_JOIN | SPECIES_IS_WHITELISTED
+	spawn_flags = SPECIES_CAN_JOIN
 
 	// Combat stats
 	total_health = 150
@@ -51,18 +51,15 @@
 	proc/has_valid_suit(mob/living/carbon/human/H)
 		if(!H.wear_suit)
 			return FALSE
-		// Simple check - just verify it's the right suit
-		// The suit itself will handle the systems checking
 		return H.wear_suit.name == "Aquatic Environment Suit"
 
 	// Handle spawning with suit
 	handle_post_spawn(mob/living/carbon/human/H)
 		..()
 		if(!H.wear_suit)
-			// Create suit using text2path to avoid compilation order
-			var/suit_type = text2path("/obj/item/clothing/suit/aquatic_mech")
-			if(suit_type)
-				var/obj/item/clothing/suit/S = new suit_type()
+			// Create suit using our unified path
+			var/obj/item/clothing/suit/aquatic_mech/S = new()
+			if(S)
 				H.equip_to_slot_or_del(S, slot_wear_suit)
 				H.visible_message(
 					SPAN_NOTICE("[H] materializes in their aquatic environment suit."),
