@@ -1,5 +1,4 @@
-
-// Baystation RuneChat System - Fixed version for Baystation compatibility
+// Baystation RuneChat System - Final version without argument conflicts
 // Path: code/modules/runechat/runechat_baystation.dm
 
 // Global runechat controller
@@ -15,11 +14,18 @@ var/global/datum/runechat_controller/runechat_controller
 
 /datum/runechat_controller/New()
 	..()
-	SSprocessing.processing += src
+	// Start the update loop using a timer
+	start_update_loop()
 
 /datum/runechat_controller/Destroy()
-	SSprocessing.processing -= src
 	return ..()
+
+/datum/runechat_controller/proc/start_update_loop()
+	// Create a simple timer-based update loop
+	spawn(1)
+		while(src)
+			update_messages()
+			sleep(1) // Update every 0.1 seconds
 
 /datum/runechat_controller/proc/create_message(mob/speaker, message, message_type = "say", color_override = null)
 	if(!speaker || !message)
@@ -88,7 +94,7 @@ var/global/datum/runechat_controller/runechat_controller
 	message.active = FALSE
 	qdel(message)
 
-/datum/runechat_controller/process()
+/datum/runechat_controller/proc/update_messages()
 	// Update all active messages
 	for(var/mob/speaker in active_messages)
 		var/list/speaker_messages = active_messages[speaker]
@@ -125,7 +131,7 @@ var/global/datum/runechat_controller/runechat_controller
 	var/layer = 0
 	var/created_time
 	var/duration
-	var/fade_time
+	var/fade_time = 10 // Default fade time
 	var/height = 12
 	var/width = 100
 	var/active = TRUE
@@ -139,7 +145,7 @@ var/global/datum/runechat_controller/runechat_controller
 	src.message_type = message_type
 	src.created_time = world.time
 	src.duration = runechat_controller.default_duration
-	src.fade_time = runechat_controller.fade_time
+	src.fade_time = runechat_controller.fade_duration // Use controller's fade_duration
 
 	// Set color based on message type
 	if(color_override)
@@ -195,7 +201,7 @@ var/global/datum/runechat_controller/runechat_controller
 		display_object.loc = speaker_turf
 
 	// Update appearance
-	display_object.update()
+	display_object.update_display()
 
 /datum/runechat_message/proc/should_remove()
 	return (world.time - created_time) > (duration + fade_time)
@@ -231,8 +237,7 @@ var/global/datum/runechat_controller/runechat_controller
 		message.display_object = null
 	return ..()
 
-/obj/effect/overlay/runechat/update()
-	. = ..()
+/obj/effect/overlay/runechat/proc/update_display()
 	update_maptext()
 
 /obj/effect/overlay/runechat/proc/update_maptext()
@@ -247,7 +252,7 @@ var/global/datum/runechat_controller/runechat_controller
 	// Clean the message text
 	var/clean_text = runechat_sanitize(message.message_text)
 
-	// Create the maptext
+	// Create the maptext - fix the font-family variable name
 	var/maptext_style = {"<span style="color:[text_color]; font-size:[font_size]px; font-family:[font_family]; text-align: center; display: block; text-shadow: 1px 1px 2px black;">[clean_text]</span>"}
 
 	maptext = maptext_style
@@ -274,7 +279,7 @@ var/global/datum/runechat_controller/runechat_controller
 
 	return text
 
-// Hook into Baystation's speech system using different approach
+// Hook into Baystation's speech system using simple approach
 /mob/living/proc/runechat_say_hook(message)
 	if(runechat_controller && message)
 		runechat_controller.create_message(src, message, "say")
@@ -287,30 +292,63 @@ var/global/datum/runechat_controller/runechat_controller
 	if(runechat_controller && message)
 		runechat_controller.create_message(src, message, "whisper")
 
-// Override the existing speech procs to add our hooks
-/mob/living/say(message, bubble_type = null, list/spans = null, sanitize = TRUE, datum/language/language = null, ignore_spam = FALSE, filterproof = FALSE)
-	// Create runechat message before processing
-	runechat_say_hook(message)
+// Simple approach - use custom verbs only, no proc overrides
+/mob/living/verb/runechat_say(msg as text)
+	set name = "RuneChat Say"
+	set category = "IC"
+	set desc = "Say with floating text"
 
-	// Call the original say proc
-	..(message, bubble_type, spans, sanitize, language, ignore_spam, filterproof)
+	if(!msg)
+		return
 
-// Hook into emotes - use perform_emote instead of me
-/mob/living/proc/perform_emote(emote_key, message = null, intentional = FALSE)
-	// Create runechat message before processing
-	if(runechat_controller && message)
-		runechat_controller.create_message(src, message, "me")
+	if(stat)
+		return
 
-	// Call the original perform_emote proc
-	..(emote_key, message, intentional)
+	if(src.silent)
+		to_chat(src, "You can't speak!")
+		return
 
-// Hook into whispers
-/mob/living/whisper(message, bubble_type = null, datum/language/language = null)
-	// Create runechat message before processing
-	runechat_whisper_hook(message)
+	// Create runechat message
+	runechat_say_hook(msg)
 
-	// Call the original whisper proc
-	..(message, bubble_type, language)
+	// Continue with normal say processing
+	say(msg)
+
+// Hook into emotes using custom verb
+/mob/living/verb/runechat_me(msg as text)
+	set name = "RuneChat Me"
+	set category = "IC"
+	set desc = "Custom emote for RuneChat"
+
+	if(!msg)
+		return
+
+	if(stat)
+		return
+
+	// Create runechat message
+	runechat_me_hook(msg)
+
+	// Continue with normal me processing using the standard emote system
+	usr.emote("me", msg)
+
+// Hook into whispers using custom verb
+/mob/living/verb/runechat_whisper(msg as text)
+	set name = "RuneChat Whisper"
+	set category = "IC"
+	set desc = "Custom whisper for RuneChat"
+
+	if(!msg)
+		return
+
+	if(stat)
+		return
+
+	// Create runechat message
+	runechat_whisper_hook(msg)
+
+	// Continue with normal whisper processing
+	whisper(msg)
 
 // Initialize runechat system on world start
 /world/New()
