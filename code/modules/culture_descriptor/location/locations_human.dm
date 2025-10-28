@@ -10,31 +10,22 @@
 /singleton/cultural_info/location/human/venus
 	name = HOME_SYSTEM_VENUS
 	distance = "0.7AU"
-	description = "Venus, in the Sol System, is a planet which has a largely unsustainable surface atmosphere.\
-	However, early terraforming succeeded in maintaining a desirable, habitable atmosphere high up in the clouds, and it is here that \
-	most of the population of Venus resides. Venus itself is covered in huge platforms, supporting these cloud cities and numerous \
-	agricultural zones, which quickly earned Venus the reputation of 'Sol's breadbasket.' Today, Venus is the home of some of the more \
-	extravagantly wealthy, with the entire planet being a dedicated tourist destination. Most of its infrastructure and residential zones are \
-	dedicated to providing entertainment, hotels, casinos, and various other attractions. Venus is one of the richest planets in the SCG, and \
-	of its residents enjoy a decadent, elitist lifestyle.<br><br>Many of the people of Venus come in two categories: the rich retirees, \
-	and the more public corporate workers, who reside high in the clouds. These people often enjoy an extravagant and somewhat decadent lifestyle. \
-	Apart from those rich enough to live there permanently, most of the people of Venus are service workers, living there only for the duration \
-	of their employment. This second group, known as the surfacers, are hardy labourers who work in large, windowless, industrial complexes on the planet's \
-	surface. These surfacers often resent and are at odds with their rich, carefree employers."
-	capital = "Central Administration Zone"
-	economic_power = 1.4
+	description = "Venus is one of the last Sol planets remaining after The Dawn of Divinity, with\
+	an aging, poverty-stricken, rebellious population making up most of its\
+	population; it stands at the precipice of utter dissolution. The age of the\
+	benevolent Venus ended during the Great War, and now tyranny and social\
+	injustice reign supreme. Riots break out on the scorching surface while the\
+	indulgent remain safe in their domes high in the sky."
+	capital = "Capitol Zeta"
+	economic_power = 0.9
 
 /singleton/cultural_info/location/human/ceres
 	name = HOME_SYSTEM_CERES
 	distance = "2.7AU"
-	description = "Ceres station, officially known as the Ceres Mining and Habitation Outpost, is a historically significant mining facility for humanity. However, \
-	this importance has diminished greatly in the past few decades, and today Ceres is a sprawling, populous facility covering much of its namesake. \
-	Operated primarily by Falco Designs, one of the SCG's premier shipbuilding corporations, Ceres is home to a multitude of drydocks and service centres \
-	for vessels. Ceres is a melting pot, and is the primary stopping point for vessels entering the Sol system. It is often said anything worth anything \
-	passes through Ceres, giving it a reputation for having a diverse black market. Commonly called 'Belters', the people of Ceres are today are mostly \
-	employed in shipbuilding, manufacturing, vessel services, and hospitality. Belters generally regard themselves as adaptive, proud members of the SCG, \
-	and some of the best engineers Humanity has to offer."
-	capital = "Government Zone, Ceres Station"
+	description = "Ceres is a mostly uninhabited prison world, mostly comprised of\
+	Peacekeeper forces and prisoners. It is the only planet which has never been\
+	in a war since The Great War. This is likely due to its gargantuan military presence"
+	capital = "The Compound"
 /singleton/cultural_info/location/human/cetiepsilon
 	name = HOME_SYSTEM_TAU_CETI
 	distance = "11.9 light years"
