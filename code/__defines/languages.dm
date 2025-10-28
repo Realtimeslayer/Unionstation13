@@ -1,5 +1,5 @@
 //Human
-#define LANGUAGE_HUMAN_EURO      "Zurich Accord Common"
+#define LANGUAGE_HUMAN_EURO      "Pax Common"
 #define LANGUAGE_HUMAN_CHINESE   "Yangyu"
 #define LANGUAGE_HUMAN_ARABIC    "Prototype Standard Arabic"
 #define LANGUAGE_HUMAN_INDIAN    "New Dehlavi"
