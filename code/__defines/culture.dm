@@ -47,6 +47,7 @@
 #define HOME_SYSTEM_STATELESS  "Stateless"
 #define HOME_SYSTEM_OTHER      "Other System"
 #define HOME_SYSTEM_DEEP_SPACE "Deep Space"
+#define HOME_SYSTEM_VINDOSH "The Outer Reaches"
 
 #define CULTURE_OTHER          			"Other Culture"
 #define CULTURE_HUMAN          			"Humankind"

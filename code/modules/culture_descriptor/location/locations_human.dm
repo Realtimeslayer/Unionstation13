@@ -61,16 +61,11 @@
 
 /singleton/cultural_info/location/human/terra
 	name = HOME_SYSTEM_TERRA
-	description = "Terra, located in the Gilgamesh system, is not the Earthlike planet as some may be lead to believe. Terra is the home of the Gilgamesh Colonial Confederation, and is the capital \
-	of the second human superpower. Terra, much like most of the GCC, is isolationist, with a minimal non-human presence. Much of Terra is heavily industrialised, with a \
-	lower standard of living than on equivalent SCG planets. Most of the populace works in Terra's sprawling industrial sector, the military, or in service. \
-	Still recovering from an economic crash towards the end of the Gaia conflict, much of Terra is in decline, with active public service being minimal, and much of the population burdened by \
-	increasingly high taxes. This state of affairs has seen the immigration of many Terran citizens to the SCG in recent years, hoping to escape the poor conditions they found themselves in. Despite this,\
-	the people of Terra are a proud and unbroken people who are heavily patriotic, and tend to bring this with them wherever they go."
-	capital = "Ameranth"
+	description = "Nitros-11 is"
+	capital = "Dem"
 	distance = "22.5 light years."
 	economic_power = 0.9
-	ruling_body = "Gilgamesh Colonial Confederation"
+	ruling_body = "Nitros Federated Republic"
 	language = LANGUAGE_HUMAN_RUSSIAN
 
 /singleton/cultural_info/location/human/saffar
@@ -172,3 +167,13 @@
 	hostile weather, exporting seafood and hosting tourists eager to experience the alien planet."
 	capital = "Foster's Landing"
 	economic_power = 1.2
+
+/singleton/cultural_info/location/human/Vindosh
+
+	name = HOME_SYSTEM_VINDOSH
+	distance = "NULL light years"
+	description = "Vindosh is a world located millions of light years away, only accesible through a vortex opened during the Great War. it serves as a gate between the Bistate Federation and the UGN\
+	But after recent conflict, the Federation has threatened the closure of the gate. The entire population lives in sealed coffin like stations in orbit of a dying sun in a rotting husk of a galaxy\
+	Survival is the only hope in Vindosh, with no light, many citizens go mad within a week. The Skrell are immune to whatever the hell lurks out the windows. "
+	capital = "None"
+	economic_power = 0.1
