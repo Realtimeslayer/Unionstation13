@@ -24,14 +24,26 @@
 	The UGN arrived, they took you, they took you to the stars. To your dreams.\
 	Or that is what you thought."
 	economic_power = 0.9
+/singleton/cultural_info/culture/human/paxupper
+	name = CULTURE_HUMAN_PAXUPPER
+	description = "You are from the paradise planet of Pax. Wealth inequality has run rampant on the UGN’s capital, and you are certainly one of its products.\
+	You are from one of the Upper class districts or privileged skylines overlooking the slums."
+	economic_power = 1.4
+
+/singleton/cultural_info/culture/human/venusian_surfacer
+	name = CULTURE_HUMAN_VENUSLOW
+	description = "You are from the paradise planet of Pax. Wealth inequality has run rampant on the UGN’s capital, and you are certainly one of its products.\
+	You are from the slums or shanty towns that underlook the towering corporate buildings."
+	economic_power = 0.9
+
 /singleton/cultural_info/culture/human/venusian_upper
-	name = CULTURE_HUMAN_VENUSIAN
+	name = CULTURE_HUMAN_PAXLOWER
 	description = "You are from one of the many zones of Venus. Floating high above the ground of the planet on massive platforms, you are one of the many who live on one of the most decadent locations in the \
 	SCG. As a Venusian, you know luxury, wealth and entertainment. Primarily a tourist destination, many of the permanent residents work in the tourism industry and are notably middle-income. \
 	Those above are exceptionally wealthy: being hotel, casino, resort owners, politicians, bankers or rich retirees."
 	economic_power = 1.4
 
-/singleton/cultural_info/culture/human/venusian_surfacer
+/singleton/cultural_info/culture/human/paxlower
 	name = CULTURE_HUMAN_VENUSLOW
 	description = "You are from the surface of Venus, one of many employed in mining, industry and services industries. Venusian Surfacers are fairly poor, especially compared to Zoners and \
 	have far lower standards of living than those above. A hardy people who spend much of their time working in mostly unpleasant conditions in order to prop up the society above, \
@@ -48,11 +60,6 @@
 	name = CULTURE_HUMAN_EARTH
 	description = "DO NOT CHOOSE THIS ONE" // Coder remove Earth or replace
 	economic_power = 1.1
-
-/singleton/cultural_info/culture/human/ceti_north
-	name = CULTURE_HUMAN_CETIN //change to nitros-6
-	description = "You are from the Northern pole of Nitros-6, the only habitable place on Nitros-6. You worked for Cooran supply as a miner for many years, but now you're free from your contract."
-	economic_power = 1.3
 
 /singleton/cultural_info/culture/human/ceti_south
 	name = CULTURE_HUMAN_CETIS //change to nitros-6IPC
@@ -156,16 +163,12 @@
 	language = LANGUAGE_SPACER
 
 /singleton/cultural_info/culture/human/confederate_terra
-	name = CULTURE_HUMAN_CONFED_TERRA
-	description = "Nitros Republic placeholder WIP DO NOT CHOOSE"
+	name = CULTURE_HUMAN_NITROS
+	description = "You are from the Nitros system, hailing from the scarred landmasses of Nitros-11 or the stations surrounding Nitros-6.\
+	Your once prosperous federated democracy has been in a state of disarray for nearly over a century.\
+	Your people are known for their resilience, and hatred towards outsiders."
 	language = LANGUAGE_HUMAN_RUSSIAN
 	economic_power = 1.1
-
-/singleton/cultural_info/culture/human/confederate_zemlya
-	name = CULTURE_HUMAN_CONFED_ZEMLYA
-	description = "Nitros Republic Rich placeholder WIP DO NOT CHOOSE"
-	language = LANGUAGE_HUMAN_RUSSIAN
-	economic_power = 1.0
 
 /singleton/cultural_info/culture/human/confederate_sestris
 	name = CULTURE_HUMAN_CONFED_SESTRIS
