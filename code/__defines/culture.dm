@@ -37,7 +37,7 @@
 #define HOME_SYSTEM_NITROSMAIN 	   "Nitros-11"
 #define HOME_SYSTEM_ANTIDO     "Antido"
 #define HOME_SYSTEM_PIRX       "Pirx"
-#define HOME_SYSTEM_TADMOR     "Tadmor"
+#define HOME_SYSTEM_NITROSSMALL     "Nitros-1"
 #define HOME_SYSTEM_BRAHE	   "Brahe"
 #define HOME_SYSTEM_IOLAUS     "Iolaus"
 #define HOME_SYSTEM_GAIA       "Gaia"

@@ -76,34 +76,34 @@
 	of WALDO."
 	economic_power = 1.2
 
-/singleton/cultural_info/location/human/tadmor
-	name = HOME_SYSTEM_TADMOR
-	distance = "45 light years"
-	description = "Tadmor is a desert planet about twice the size of Earth, located in the Gamma Cephei system. Tadmor has been a member state of the United Galactic Nations since the \
-	latter's formation. First settled in 2176 by a group of Martian colonists, Tadmor's economy is based on both industrial-scale agriculture, and the fabrication of various electronic goods. \
-	Tadmorans have prided themselves on their pacifism, with few found in Sol's defense forces. However, this lead to some conflict during the Gaia Conflict between Tadmoran senators and those \
-	of the core worlds."
-	capital = "Palmyra"
+/singleton/cultural_info/location/human/nitros1
+	name = HOME_SYSTEM_NITROSSMALL
+	distance = "22.5 light years"
+	description = "Nitros-1 is a dwarf planet in the closest orbit to the Nitros systems sun. It is\
+	nearly uninhabited except for the small nomad populations constantly living\
+	on its dark side."
+	capital = "None"
 	economic_power = 1.0
 
 /singleton/cultural_info/location/human/pirx
 	name = HOME_SYSTEM_PIRX
 	distance = "41 light years"
-	description = "Pirx Prime is a colonized super-earth planet, located in the Pirx system. Covered in a jungle of towering, exotic plantlife, Pirx is closer to unexplored \
-	space compared to most other colonies. Pirx has suffered from this disconnect, with few corporate investors and fewer immigrants. As such, most of the planet remains \
-	unexplored. With the recent resurgence of the Expeditionary Corps, Pirx has found itself rapidly thrust into a position as both a sort of supply and fuel stop for EC vessels. \
-	as well as a training ground for prospective explorers. The long-term neglect and sudden exploitation has fostered a bitter attitude towards the SCG and the EC in many Pirxans."
-	capital = "Yuodu"
+	description = "Pirx is a lush jungle world located in the Indies Minor system, with around 800\
+	million people living on it and over a hundred million more living in orbital\
+	stations. It is covered in subterranean complexes, relics of Gladius Invictus, and\
+	remains to this day a strong pacifist and egalitarian nation, constantly fighting\
+	for equal rights of all species. It is the founding planet of the ABCDEFG\
+	Corporation."
+	capital = "Bool"
 	economic_power = 0.7
 
 /singleton/cultural_info/location/human/brahe
 	name = HOME_SYSTEM_BRAHE
 	distance = "41 light years"
-	description = "Brahe is an ocean planet in the Copernicus system. First colonized alongside Iolaus by sleeper ships c. 2132, contact was temporarily lost during the war between the Terran Commonwealth \
-	and the Ares Confederation. Since contact was reestablished during the formation of the United Galactic Nations, Brahe has been a strong supporter of the UGN, and an advocate for further expansion into \
-	unexplored space. With only 12% of the planet's surface being usable landmass, Brahe's economy is mostly founded on the tourism that the extensive coasts attract, and research done \
-	in surface and underwater labs. The Zeng-Hu corporation in particular has strong ties to Brahe's genetic research labs, and many Brahese government officials hold positions within the company."
-	capital = "New Aarhus"
+	description = "Brahe is a desert world in the Indies Minor System, serving as a moon to Pirx.\
+	The population there is extremely hostile to outsiders and, following Gladius Invictus, has shot down any crafts attempting to enter the atmosphere.\
+	Survivors of Brahe are characterized by their lack of a right hand and unique language."
+	capital = "Aeturnis"
 	economic_power = 1.1
 
 /singleton/cultural_info/location/human/iolaus
