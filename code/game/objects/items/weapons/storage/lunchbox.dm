@@ -135,14 +135,14 @@
 	filled = TRUE
 
 
-/obj/item/storage/lunchbox/scg
-	name = "\improper SCG lunchbox"
-	icon_state = "lunchbox_scg"
+/obj/item/storage/lunchbox/UGN
+	name = "\improper UGN lunchbox"
+	icon_state = "lunchbox_UGN"
 	item_state = "toolbox_blue"
 	desc = "A little lunchbox. This one is branded with the flag of the Solar Assembly!"
 
 
-/obj/item/storage/lunchbox/scg/filled
+/obj/item/storage/lunchbox/UGN/filled
 	filled = TRUE
 
 
