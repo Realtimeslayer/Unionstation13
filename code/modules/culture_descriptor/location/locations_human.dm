@@ -51,8 +51,8 @@
 	economic_power = 1.3
 	distance = "10 light years"
 
-/singleton/cultural_info/location/human/terra
-	name = HOME_SYSTEM_TERRA
+/singleton/cultural_info/location/human/nitrosmain
+	name = HOME_SYSTEM_NITROSMAIN
 	description = "Nitros-11 is"
 	capital = "Dem"
 	distance = "22.5 light years."
@@ -61,14 +61,16 @@
 	language = LANGUAGE_HUMAN_RUSSIAN
 
 /singleton/cultural_info/location/human/saffar
-	name = HOME_SYSTEM_SAFFAR
+	name = HOME_SYSTEM_ANTIDO
 	distance = "44 light years"
-	description = "Saffar is a gas giant in the Upsilon Andromedae system. Comparable in size to Jupiter, the surface is uninhabitable to nearly all life. \
-	However, because of the system's proximity to several other colonies and Saffar's atmospheric composition, a gas mining and refueling station was constructed in high orbit c. 2198. \
-	Over time, the station expanded to accommodate higher traffic, and an ever-growing number of permanent residents, culminating in the construction of a gateway in-system  \
-	shortly after the war between the Terran Commonwealth and the Ares Confederation ended c. 2230. Since the construction of the gateway, Saffar is nominally under the  \
-	jurisdiction of the SCG's Gateway Administration, although Saffarite efforts to be considered a member state have been underway since the SCG was first formed."
-	capital = "Saffar Station"
+	description = "Antido is a terrestrial giant in the Upsilon Andromedae system, about the size\
+	of Jupiter, with over 1 billion people living on it, it stands as one of the lowest\
+	density planets in the UGN. After Dr. Waldo was murdered during the Antido\
+	civil war, the former dictatorship was overrun by a surge of rebels, and\
+	retreated to the North Pole of the planet to this day. Antido is covered in deep,\
+	sticky oil puddles, making cars extremely unsafe. It is one of the only UGN\
+	planets to be entirely void of all phoron or fossil fuels. It also serves as the HQ\
+	of Waldo"
 	economic_power = 1.2
 
 /singleton/cultural_info/location/human/tadmor
