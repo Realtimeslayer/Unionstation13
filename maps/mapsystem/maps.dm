@@ -203,6 +203,8 @@ var/global/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 			RELIGION_SPIRITUALISM,
 			RELIGION_SHINTO,
 			RELIGION_TAOISM
+			RELIGION_UNIONBENEDICT
+			RELIGION_UNION
 		)
 	)
 
