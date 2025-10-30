@@ -80,9 +80,8 @@
 
 /singleton/cultural_info/culture/human/eos
 	name = CULTURE_HUMAN_EOS
-	description = "The largest population center in the Helios system, Eosic people have had their culture dominated by the history of the Gaia Conflict for the last   \
-	several decades. The destruction of the Helios Gateway is a well ingrained cultural memory, and as such many Eosics are raised with a strong sense of nationalism and an  \
-	intimate connection with the Sol Defense Forces."
+	description = "You come from the dying planet of Eos, scarred by your past.\
+	Your people fear the sun, which is why you have boarded the Titen in hopes of escaping its wrath."
 	economic_power = 0.8
 
 /singleton/cultural_info/culture/human/pirx_high
@@ -129,7 +128,7 @@
 
 /singleton/cultural_info/culture/human/other
 	name = CULTURE_HUMAN_OTHERS
-	description = "You are from the Sol system generally, from the inner solar system or outer rim of planets, stations, and colonized asteroids. People from Sol are known for their depressive and nihilistic attitude due to the ravaged state of the Sol System."
+	description = "You are from a star system far away from the UGN’s or Union’s grip, mystifying your background."
 	economic_power = 1
 	secondary_langs = list (LANGUAGE_HUMAN_PAX,
 		LANGUAGE_HUMAN_CHINESE,
@@ -143,7 +142,7 @@
 
 /singleton/cultural_info/culture/human/vatgrown
 	name = CULTURE_HUMAN_VATGROWN
-	description = "You were grown in a vat, either as clone or as a gene-adapt, and your outlook diverges from baseline humanity accordingly."
+	description = "You were grown in a vat, either as clone or as a gene-adapt, and you must hide your identity to avoid being criminalized for your existence."
 
 /singleton/cultural_info/culture/human/vatgrown/sanitize_name(name)
 	return sanitizeName(name, allow_numbers=TRUE)
