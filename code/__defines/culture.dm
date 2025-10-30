@@ -101,7 +101,7 @@
 #define RELIGION_TAOISM        "Taoism"
 #define RELIGION_UNSTATED      "Unstated"
 #define RELIGION_UNION         "Tutin Sect"
-#define RELIGION_UNIONBENIDICT    "Benedict Sect"
+#define RELIGION_UNIONBENEDICT    "Benedict Sect"
 // Skrellian cultures.
 #define CULTURE_SKRELL_QERR     "Qerr-Katish"
 #define CULTURE_SKRELL_MALISH   "Malish-Katish"

@@ -7,5 +7,5 @@
 
 /singleton/cultural_info/religion/union/benedict
 
-	name = RELIGION_UNIONBENIDICT
+	name = RELIGION_UNIONBENEDICT
 	description = "A schism of the Union's religion dedicated to worshipping the Blaphemous Binary"
