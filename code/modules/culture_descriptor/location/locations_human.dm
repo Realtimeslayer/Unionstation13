@@ -106,27 +106,6 @@
 	capital = "Aeturnis"
 	economic_power = 1.1
 
-/singleton/cultural_info/location/human/iolaus
-	name = HOME_SYSTEM_IOLAUS
-	distance = "41 light years"
-	description = "Iolaus is a super-earth in the Copernicus system. First colonized alongside Brahe by sleeper ships c. 2132, contact was temporarily lost during the war between the Terran Commonwealth \
-	and the Ares Confederation. During this period of time, Iolaus kept the two fledgling colonies alive, producing enough food and supplies for the two planets to scrape by. Since contact was reestablished \
-	during the formation of the United Galactic Nations, Iolaus has taken efforts to retain some independence while taking advantage of the reintroduction of trade to the system. As a result, Iolaus imports \
-	tend to be restricted to only what they cannot produce themselves, while Iolan exports are shipped across the entirety of UGN space."
-	capital = "Nemea"
-	economic_power = 1.0
-
-/singleton/cultural_info/location/human/gaia
-	name = HOME_SYSTEM_GAIA
-	distance = "14 light years"
-	description = "Gaia is the sole planet in the Galilei system, serving as the DMZ between the SCG and the GCC. \
-	It is an agricultural world, though the recent Gaia Conflict has left the planet's surface scarred. The planet is divided into the \
-	Sol-Controlled <b>Gaian Administrative Area</b> and Independent-Backed <b>Protectorate of Gaia</b>, with the International City of New Venice remaining a neutral zone inside the DMZ. \
-	The planet's population remains divided even 10 years after the Gaian Conflict. While Gaia is divided, the current Mayor of New Venice serves as a vital mediator between both sides. \
-	<br><br> The Gaian People are tired of war, and are growing bitter to their present situation.  They suffered great hardship twenty years prior, and won't let themselves suffer again."
-	capital = "New Venice"
-	economic_power = 1.0
-
 /singleton/cultural_info/location/human/magnitka
 	name = HOME_SYSTEM_MAGNITKA
 	distance = "24 light years"
@@ -140,30 +119,6 @@
 	capital = "Neueifel"
 	economic_power = 0.9
 	ruling_body = "Magnitkan Independence Coalition"
-
-/singleton/cultural_info/location/human/castilla
-	name = HOME_SYSTEM_CASTILLA
-	distance = "10 light years"
-	description = "Nueva Castilla is an exoplanet in the Culebre system, currently \
-	in the late stages of terraforming. Formerly a barren rock, it was chosen for future \
-	colonization because of its size, core composition and location in the Culebre system's \
-	'goldilocks zone'. Since the project began, Nueva Castilla has developed a functional, if \
-	decidedly unique biosphere where much of the planet is covered in a fast growing moss. \
-	There are two major human settlements, and a number of smaller ones both planetside and in-system."
-	capital = "Placida"
-	economic_power = 1.0
-
-/singleton/cultural_info/location/human/fosters
-	name = HOME_SYSTEM_FOSTER
-	distance = "11 light years"
-	description = "Foster's World, located in the Sanura system, is a small, icy exoplanet with \
-	a planetary mass slightly lower than Earth. A highly active core caused the formation of \
-	several small oceans with wide and temperate coastlines, the only reason the planet sports a \
-	breathable atmosphere at all. The planet and system are owned by a privately-funded \
-	cooperative. The colonists who brave the planet have flourished in spite of the planet's \
-	hostile weather, exporting seafood and hosting tourists eager to experience the alien planet."
-	capital = "Foster's Landing"
-	economic_power = 1.2
 
 /singleton/cultural_info/location/human/Vindosh
 

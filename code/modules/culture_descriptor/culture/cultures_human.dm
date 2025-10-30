@@ -56,27 +56,10 @@
 	description = "You are from Ceres. You were a former prisoner, warden, or guard. You escaped by some whim of the UGN, and now you've found your way aboard the Titen in hopes of surviving. If your time on Ceres has taught you anything, its that power always breeds corruption."
 	economic_power = 1
 
-/singleton/cultural_info/culture/human/earthling
-	name = CULTURE_HUMAN_EARTH
-	description = "DO NOT CHOOSE THIS ONE" // Coder remove Earth or replace
-	economic_power = 1.1
-
 /singleton/cultural_info/culture/human/ceti_south
 	name = CULTURE_HUMAN_CETIS //change to nitros-6IPC
 	description = "#IPC ONLY# You were constructed on the south pole of Nitros-6, abused by your creators, and left to rot in a magma pit for weeks. After the riots broke out, you were found and recruited into the Nitros-6 People's Front. It didn't last long. You're free now. What will you do?  #IPC ONLY#"
 	economic_power = 1.2
-
-/singleton/cultural_info/culture/human/ceti_interstate //remove
-	name = CULTURE_HUMAN_CETII
-	description = "DO NOT CHOOSE"
-	economic_power = 1.0
-
-/singleton/cultural_info/culture/human/foster
-	name = CULTURE_HUMAN_FOSTER
-	description = "Foster's World was once considered too cold and desolate for habitation, but decades of inhabitance by the Fostermen has turned it into a productive and popular destination. \
-	Fostermen are traditionally noted for their resourcefulness and motivation, as well as a preference for being in colder environments. \
-	Snow is second nature to people from Foster's World, and they've made a name for themselves exploring and fishing its thermal oceans. "
-	economic_power = 1.1
 
 /singleton/cultural_info/culture/human/tadmor
 	name = CULTURE_HUMAN_TADMOR
@@ -84,13 +67,6 @@
 	Mostly living in the fissures of the desert world, Tadmorians are most famous for their cultural Pacifism, with their aversion to participation in \
 	the Gaia Conflict being seen by all residents as either a proud moment or a stain in the planets rich, Mars-rooted history. "
 	economic_power = 1.2
-
-/singleton/cultural_info/culture/human/iolaus
-	name = CULTURE_HUMAN_IOLAUS
-	description = "An old colonial project of the Terran Commonwealth that survived a period of forced isolation, Iolaus has declared itself the capital of the fledgeling and jingoistic Frontier Alliance. \
-	Many Iolan refugees are now trapped outside the Copernican Blockade, but whether they are loyal or treasonous all Iolans share a long history of self reliance, \
-	a strong sense of personal work ethic, and the cultural notion that individuals are cogs in a machine that serves a greater and protective purpose. "
-	economic_power = 0.7
 
 /singleton/cultural_info/culture/human/brahe
 	name = CULTURE_HUMAN_BRAHE
