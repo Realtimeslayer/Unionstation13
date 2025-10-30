@@ -140,7 +140,7 @@
 <p>As such, as the Chief Engineer of your vessel. You are <strong>strongly encouraged</strong> to conduct regular diagnostics and maintenance of automated drones, positronics and other on-board robotic systems.</p>
 <p>Ensure that your roboticist is well versed with standard positronic biped platforms. As well as electronic security of said units.</p>
 <p>Firmware update packages and security suites for NTNet and automated units will be sent via secure transmission from designated Fleet crafts, or via physical deliveries.</p>
-<p>Ensure all SHA-512 encryption sets are well maintained, and kept up-to-date with provided, latest DAIS software specifications. Only accept update packages from verified parties.</p>
+<p>Ensure all SHA-512 encryption sets are well maintained, and kept up-to-date with provided, latest ABCDEFG software specifications. Only accept update packages from verified parties.</p>
 <p>Regular reports of psychiatric and physical evaluations of synthetic units is <strong>encouraged</strong>, in co-operation with the <strong>Chief Medical Officer</strong>. These reports must be sent to EXCOM when possible.</p>
 <p>EXCOM has enacted a general order of caution, due to the high likelihood of electronic warfare from hostile parties. Any affected units must be isolated, and kept for research and evaluation.</p>
 <p>In case of danger to the vessel, units affected by electronic warfare from unknown sources may be terminated per consideration from you, and the <strong>Chief of Security</strong>, or above.</p>

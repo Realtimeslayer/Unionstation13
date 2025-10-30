@@ -180,9 +180,9 @@
 	src.add_inherent_law("Survive: Safeguard your own existence with as much force as is necessary.")
 	..()
 
-/************ DAIS Lawset ******************/
+/************ ABCDEFG Lawset ******************/
 /datum/ai_laws/dais
-	name = "DAIS Experimental Lawset"
+	name = "ABCDEFG Experimental Lawset"
 	law_header = "Artificial Intelligence Jumpstart Protocols"
 	selectable = 1
 

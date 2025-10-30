@@ -76,12 +76,12 @@ At the present day, NeoTrasen is the wealthiest of the megacorps, valued at\
 
 
 /singleton/cultural_info/faction/remote/hephaestus
-	name = FACTION_HEPHAESTUS
+	name = FACTION_NITROSENGINEERING
 	description = "Nitros Engineering, known simply as NE or Nitros, is one of the largest megacorporations of the modern day. \
 	They are the leading manufacturer of military grade personal weapons, assault vehicles, defence systems, and security measures. \
-	Hephaestus has a somewhat controversial reputation as a participant in blatant war profiteering, compounded by their attempts to \
-	exploit Unathi equipment and assets for their own gains. In spite of this, Hephaestus maintains a reputation for the quality and \
-	reliability of their equipment, as well as its general affordability. Internally, Hephaestus is a desirable employer as a result of its \
+	Nitros Engineering has a somewhat controversial reputation as a participant in blatant war profiteering, compounded by their attempts to \
+	exploit Unathi equipment and assets for their own gains. In spite of this, Nitros Engineering maintains a reputation for the quality and \
+	reliability of their equipment, as well as its general affordability. Internally, Nitros Engineering is a desirable employer as a result of its \
 	many employee benefits and focus on employee development, though many dread being transferred to one of the 'remote' branches."
 	economic_power = 1.2
 	blacklisted_jobs = list(/datum/job/officer, /datum/job/hos, /datum/job/warden, /datum/job/detective, /datum/job/sec_physician)

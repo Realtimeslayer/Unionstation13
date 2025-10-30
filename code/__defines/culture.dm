@@ -15,7 +15,7 @@
 #define FACTION_INDIE_CONFED  "Federated Republic of Nitros"
 #define FACTION_NEOTRASEN     "NeoTrasen"
 #define FACTION_FREETRADE      "Cooran Supply"
-#define FACTION_HEPHAESTUS     "Nitros Engineering"
+#define FACTION_NITROSENGINEERING     "Nitros Engineering"
 #define FACTION_URC        "United Rocknall Corporation"
 #define FACTION_UGNFLEET          "UGN Fleet"
 #define FACTION_EXPEDITIONARY  "Expeditionary Corps"

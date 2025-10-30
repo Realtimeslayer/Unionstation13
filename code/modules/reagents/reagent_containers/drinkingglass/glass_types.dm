@@ -240,11 +240,11 @@
 	base_name = "british cup"
 
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/dais
-	name = "\improper DAIS coffee cup"
+	name = "\improper ABCDEFG coffee cup"
 	desc = "A coffee cup imprinted with the stylish logo of Deimos Advanced Information Systems."
 	icon_state = "coffeecup_dais"
 	item_state = "coffeecup_dais"
-	base_name = "\improper DAIS cup"
+	base_name = "\improper ABCDEFG cup"
 
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/teacup
 	name = "teacup"
