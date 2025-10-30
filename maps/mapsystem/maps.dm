@@ -138,8 +138,6 @@ var/global/const/MAP_HAS_RANK = 2		//Rank system, also togglable
 			HOME_SYSTEM_PIRX,
 			HOME_SYSTEM_NITROSSMALL,
 			HOME_SYSTEM_BRAHE,
-			HOME_SYSTEM_IOLAUS,
-			HOME_SYSTEM_GAIA,
 			HOME_SYSTEM_OTHER
 		),
 		TAG_FACTION = list(
