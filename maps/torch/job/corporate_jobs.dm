@@ -10,7 +10,7 @@
 	minimal_player_age = 0
 	minimum_character_age = list(SPECIES_HUMAN = 25)
 	alt_titles = list(
-		"Corporate Liaison",
+		"Human Resources Manager",
 		"Union Representative",
 		"Corporate Representative",
 		"Corporate Executive"
