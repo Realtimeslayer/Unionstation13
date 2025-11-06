@@ -158,8 +158,8 @@
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/SCG
 	name = "\improper UGN coffee cup"
 	desc = "A blue coffee cup emblazoned with the crest of the United Galactic Nations."
-	icon_state = "coffeecup_UGN"
-	item_state = "coffeecup_UGN"
+	icon_state = "coffeecup_SCG"
+	item_state = "coffeecup_SCG"
 	base_name = "\improper UGN cup"
 
 /obj/item/reagent_containers/food/drinks/glass2/coffeecup/NT
