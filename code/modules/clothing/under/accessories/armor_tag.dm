@@ -31,7 +31,7 @@
 /obj/item/clothing/accessory/armor_tag/waldo
 	name = "\improper WALDO tag"
 	desc = "An armor tag with the acronym WALDO printed in olive-green lettering on it."
-	icon_state = "waldotag"
+	icon_state = "saaretag"
 
 /obj/item/clothing/accessory/armor_tag/sfp
 	name = "\improper SFP tags"

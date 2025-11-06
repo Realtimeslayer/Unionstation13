@@ -360,7 +360,7 @@
 /obj/item/clothing/head/beret/waldo
 	name = "\improper WALDO beret"
 	desc = "A gray beret with the emblem of Strategic Assault and Asset Retention Enterprises, a private military corporation. For mercenaries that are more inclined towards style than safety."
-	icon_state = "beret_corporate_waldo"
+	icon_state = "beret_corporate_saare"
 
 /obj/item/clothing/head/deckcrew
 	name = "deck crew helmet"
