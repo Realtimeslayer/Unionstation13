@@ -215,8 +215,8 @@ patches
 scarves
 *****/
 /obj/item/clothing/accessory/solgov/ec_scarf
-	name = "expeditionary scarf"
-	desc = "An SCG blue silk scarf, meant to be worn with Expeditionary Corps uniforms."
+	name = "UGN scarf"
+	desc = "An UGN blue silk scarf."
 	icon = 'icons/obj/clothing/obj_accessories.dmi'
 	accessory_icons = list(slot_w_uniform_str = 'icons/mob/onmob/onmob_accessories.dmi', slot_wear_suit_str = 'icons/mob/onmob/onmob_accessories.dmi')
 	sprite_sheets = list(
@@ -507,13 +507,13 @@ armour attachments
 	slot = ACCESSORY_SLOT_ARMOR_MISC
 
 /obj/item/clothing/accessory/armor_tag/solgov/ec
-	name = "\improper Expeditionary Corps crest"
-	desc = "An emblem depicting the crest of the SCG Expeditionary Corps."
+	name = "\improper UGN crest"
+	desc = "An emblem depicting the crest of the United Galactic Nations."
 	icon_state = "ecflag"
 
 /obj/item/clothing/accessory/armor_tag/solgov/fleet
 	name = "\improper Fleet crest"
-	desc = "An emblem depicting the crest of the SCG Fleet."
+	desc = "An emblem depicting the crest of the UGN Fleet."
 	icon_state = "fleetflag"
 
 /obj/item/clothing/accessory/armor_tag/solgov/sec
